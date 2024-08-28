@@ -1,0 +1,77 @@
+/* Home */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.hero-section img {
+  height: 636px;
+  border-radius: 24px;
+}
+
+.home .bonhomie-title {
+  position: absolute;
+  bottom: 0;
+  height: 232px;
+}
+
+.home .overlay-section {
+  position: absolute;
+  top: 36px;
+  color: var(--white-color);
+  z-index: 2;
+  gap: 800px;
+  display: flex;
+}
+
+.home .overlay-section .overlay-left {
+  height: 132px;
+  width: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  .top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.home .overlay-section .overlay-right {
+  height: 132px;
+  width: 332px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  .bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.btn {
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid var(--white-color);
+  padding: 10px 20px;
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+.btn.btn-secondary {
+  background-color: var(--white-color-button);
+  border: none;
+}
+
+.btn.btn-secondary div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

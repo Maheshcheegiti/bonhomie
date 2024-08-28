@@ -6,6 +6,9 @@
   background-color: var(--white-color);
   color: var(--black-color-700);
   padding: 0 56px;
+  position: sticky;
+  top: 40px;
+  z-index: 1000;
 }
 
 .nav-bar ul {
