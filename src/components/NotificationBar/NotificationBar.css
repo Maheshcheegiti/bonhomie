@@ -5,6 +5,7 @@
   right: 0;
   z-index: 1000;
   height: 40px;
+  width: 100%;
   font-size: 14px;
   display: flex;
   justify-content: center;
@@ -15,5 +16,6 @@
 
 .notification-bar .notification-bar-background-icons {
   position: absolute;
+  width: 100%;
   top: 0;
 }
